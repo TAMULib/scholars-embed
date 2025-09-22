@@ -1,7 +1,7 @@
 import { join } from 'path';
 import { writeFile } from 'fs';
 
-import * as compression from 'compression';
+import * as  compression from './node_modules/compression';
 import * as express from 'express';
 import * as cors from 'cors';
 
